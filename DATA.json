@@ -1,0 +1,60 @@
+{
+  "name": "The Reading Nook",
+  "location": "123 Book St, Bibliopolis",
+  "isOpen": true,
+  "numberOfSections": 2,
+  "contact": null,
+  "popularGenres": ["Fiction", "Mystery", "Sci-Fi", "Non-Fiction"],
+  "sections": [
+    {
+      "sectionName": "Section 1",
+      "books": [
+        {
+          "title": "Journey to the Unknown",
+          "author": "Alice Wonder",
+          "price": 12.99,
+          "isAvailable": true,
+          "reviews": [
+            {
+              "reviewer": "John Doe",
+              "rating": 4.5,
+              "verifiedPurchase": true
+            },
+
+            {
+              "reviewer": "Jane Smith",
+              "rating": 4.0,
+              "verifiedPurchase": false
+            }
+          ]
+        },
+        {
+          "title": "Mystery of the Ancient Map",
+          "author": "Clive Cussler",
+          "price": 15.5,
+          "isAvailable": false,
+          "reviews": []
+        }
+      ]
+    },
+    {
+      "sectionName": "Section 2",
+      "books": [
+        {
+          "title": "The Reality of Myths",
+          "author": "Helen Troy",
+          "price": 18.25,
+          "isAvailable": true,
+
+          "reviews": [
+            {
+              "reviewer": "Alice Green",
+              "rating": 4.8,
+              "verifiedPurchase": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
